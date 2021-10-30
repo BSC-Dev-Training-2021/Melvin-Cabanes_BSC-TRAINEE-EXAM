@@ -32,6 +32,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	box-sizing: border-box;
+	background-color: #067d81;
+	
 }
 ol, ul {
 	list-style: none;
@@ -47,255 +50,417 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	overflow:hidden;
 }
 
 /*MyCode*/
 * {
-	font-family: Arial, Montserrat, Roboto, sans-serif;
+	font-family: 'Montserrat', 'Roboto', sans-serif;
 	text-decoration: none;
 	color: #000;
+	
 
 }
-body {
-	box-sizing: border-box;
-	background: linear-gradient(to left, #345B63, #152D35)	
+/*Login Page*/
 
+.indexContainer {
+	overflow: hidden;
 }
-/*INDEX*/
-.nav {
-	width: 100%;
-	height: 50px;
-	background-color: #345B63;
+.sideContainer {
+	width: 50%;
+	height: 500px;
+	margin: 100px 20px;
+	border-right: 1px solid #F3F2C9;
+	position: absolute;
 }
-.nav p {
-	line-height: 50px;
-	padding: 0 30px;
+.sideContainer h2 {
+	color: #53B8BB;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 45px;
+	padding: 20px;
+	text-shadow: 4px 3px 10px #000;
+}
+.sideContainer p {
+	text-indent: 35px;
 	font-size: 20px;
-	font-weight: 700;
-	color: #fff;
+	line-height: 2.5;
+	color: #F3F2C9;
+	padding: 20px 30px;
+	text-align: left;
 }
 .container {
-	width: 100%;
-
+	position: relative;
+	max-width: 300px;	
+	margin-right: 200px;
+	padding: 50px;
+	display: block;
+	float: right;
 	
-	}
+	
+}
 .container h1 {
-	font-size: 48px;
+	text-align: center;
+	font-size: 50px;
+	padding: 40px 0;
 	font-weight: 700;
-	text-align: center;
-	padding: 50px 0 30px 0;
-	color: #fff;
-}
-.container .emailPass p {
-	/*color: #69DADB;*/
-	text-align: center;
-	font-size: 20px;
-	padding: 10px 0;
-	color: #D4ECDD;
-}
-.container .emailPass {
-	text-align: center;
-}
-.forgotPass a{
-	text-align: center;
-	padding: 10px;
-	font-size: 16px;
-	margin: 10px;
-	color: #D4ECDD;
+	color: #53B8BB;
+	border-bottom: 1px solid #fff;
+	text-shadow: 4px 3px 10px #000;
 	
+}
+.emailPass {
+	padding: 10px auto;
+}
+
+.emailPass p{
+	font-size: 16px;
+	padding: 10px 0;
+	color: #F3F2C9;
+	
+	
+}
+.emailPass input {
+	width: 280px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #055052;
+	border-radius: 10px;
+	padding:0 15px;
+	margin: 0 auto;
+
+}
+.container .forgotPass a{
+	font-size: 12px;
+	color: #00f7ffce;
+	float: right;
+}
+.container .forgotPass a:hover{
+	color: #ffffff;
+}
+.container .forgotPass a:active{
+	color: #00f7ffce;
+}
+.container .wrapper {
+	align-content: center;
+	padding: 20px 0;
+}
+.container .loginSignup button {
+	display: block;
+	cursor: pointer;
+	width: 280px;
+	height: 35px;
+	margin: 10px auto;
+	border-radius: 10px;
+	border: 1px solid #F3F2C9;
+	background-color: #067d81;
+	padding:0 auto;
+	
+}
+.container .loginSignup button:hover {
+	background-color: #0b979c;
+	
+}
+.container .loginSignup button:active {
+	background-color: #046468;
+	
+}
+.container .loginSignup a {
+	color: #F3F2C9;
+	font-size: 16px;
 }
 .container p {
-	color: #D4ECDD;
+	color: #F3F2C9;
+	font-size: 18px;
+	text-transform: uppercase;
 	text-align: center;
-	padding-bottom: 5px;
+	padding: 5px 0;
 }
-.container .emailPass input {
-	width: 350px;
-	height: 25px;
-	margin: 5px;
-	border:  none;
-	border-bottom: 1px solid #111;
-	border-radius: 10px;
-	padding: 5px;
-	padding: 5px 20px;
+.container .or {
+	color: #F3F2C9;
 	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 5px 0;
 }
-.container a {
+.container .facebook {
 	display: block;
-}
-.container button {
-	font-size: 16px;
-	display: block;
-	width: 350px;
-	height: 30px;
+	cursor: pointer;
+	width: 280px;
+	height: 36px;
 	margin: 10px auto;
-	padding: auto;
-	border: 0 solid #111;
 	border-radius: 10px;
+	border:1px solid #fff;
+	background-color: #236cff;
+	color: #F3F2C9;
+	font-size: 14px;
+	position: relative;
 }
-.loginSignup {
-	margin: 30px;
+.container .facebook:hover {
+		background-color: #0084ff;
 }
- /*PROFILE*/
+.container .facebook:active {
+	background-color: #236cff;
+}
+
+.container .google {
+	display: block;
+	cursor: pointer;
+	width: 280px;
+	height: 36px;
+	margin: 10px auto;
+	border-radius: 10px;
+	border:1px solid #fff;
+	background-color: #DB4437;
+	color: #F3F2C9;
+	font-size: 14px;
+	position: relative;
+	
+}
+.container .google:hover {
+	background-color: #fd685b;
+}
+.container .google:active {
+	background-color: #DB4437;
+}
+.container .instagram {
+	display: block;
+	cursor: pointer;
+	width: 280px;
+	height: 36px;
+	margin: 10px auto;
+	border-radius: 10px;
+	border:1px solid #fff;
+	background-color: #E1306C;
+	color: #F3F2C9;
+	font-size: 14px;
+	position: relative;
+}
+.container .instagram:hover {
+	background-color: #fc6195;
+}
+.container .instagram:active {
+	background-color: #E1306C;
+}
+.social img {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 10px;
+	top: 0;
+}
+.container .facebook a{
+	color: #F3F2C9;
+}
+.container .google a{
+	color: #F3F2C9;
+}
+.container .instagram a{
+	color: #F3F2C9;
+}
+
+/*PROFILEEEEEEEEE*/
 .profile {
+	
+	width: 100%;
+	background-color: #fff;
+	max-height: 900px;
+
+}
+.profileBody{
+	display: flex;
+	padding-left:50px;
+}
+.profile nav {
+	width: 100%;
+	height: 80px;
+	background: linear-gradient(to right, #53B8BB, #055052);
+	
+}
+
+.profile nav li {
+	display: inline-block;
+	line-height: 80px;
+	font-weight: 700;
+}
+.profile nav a {
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+	padding: 20px 30px;
+
+
+}
+.profile nav a {
+	display: inline-block;
+	font-weight: 700;
+	color: #fff;
+	float:right;
+	line-height: 80px;
+	padding: 0 30px;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px #000;
+	
+}
+.userInfo {
+	border-right: 1px solid #003638;
+	width: 330px;
+	height: 470px;
+	padding: 20px;
+	margin-top: 40px;
+}
+.userInfo img {
+	display: flex;
+	width: 170px;
+	border-radius: 50%;
+	margin: 0 auto;
+	border: 5px solid #0b979c;
+
+}
+
+.userInfo h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	padding: 20px 0;
+	color: #003638;
+}
+.userInfo ul li {
+	font-size: 18px;
+	padding: 15px;
+	font-weight: 500;
+	color: #003638;
+}
+.userInfo ul li span{
+	font-size: 18px;
+	padding: 15px;
+	font-weight: 400;
+	color: #055052;
+}
+.orders {
+	width: 330px;
+	height: 470px;
+	flex: left;
+	padding: 20px;
+	padding: 20px;
+	margin: 40px;
+	background-color: #fff;
+	box-shadow: 2px 2px 4px #000;
+	border-radius: 20px 0;
+}
+.orders h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	padding: 20px 0;
+	color: #003638;
+	text-align: center;
+}
+.orders .orderedItems {
+	border-bottom: 1px dotted #000;
+	margin: 10px 0;
+}
+.orders img {
+	display: flex;
+	height: 60px;
+	width: 60px;
+	margin: 10px 10px 0 10px;
+	
+}
+.orders .orderedItems a {
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: middle;
 	display: flex;
 	flex: left;
-	width: 1200px ;
-	margin: 40px auto;
-	background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 5px 10px 15px #112031;
-}
-.profile p {
-	font-size: 18px;
-	color: #112031;
-	line-height: 2.3;
+	line-height:5;
 
 }
-.profile span {
-
-	padding: 20px;
-	color: #345B63;
-	line-height: 2.3;
+.orders .orderedItems p {
+	font-size: 12px;
+	padding: 0 0 5px 5px;
 
 }
-.profile h2 {
-	
-	text-transform: uppercase;
-	font-size: 22px;
+.orders .btn {
 	text-align: center;
-	margin: 20px auto;
-	color: #112031;
-
-	
-}
-.profile a {
-	display: block;
-	font-size: 18px;
-	color: #000;
 	padding: 20px;
-
 }
-.profile button {
+
+.orders .btn button {
 	width: 100px;
-	height: 30px;
-	margin: 20px 0;
+	height: 35px;
+	border: 1px solid #F3F2C9;
+	border-radius: 10px;
+	background-color:#067d81;
+	color: #F3F2C9;
 }
-.profile .userInfo{
-	width: 300px;
-	height: 500px;
-	border: none;
+.orders .btn a {
+	color: #F3F2C9;
+}
+.notes {
+	width: 330px;
+	height: 470px;
+	flex: left;
 	padding: 20px;
-	margin: 20px;
-	background-color: #D4ECDD;
-	border-radius: 55px 10px;
-	box-shadow: 5px 10px 15px #000;
-	
-}
-
-.profile .userInfo img {
-	display: flex;
-	width: 200px;
-	height: 200px;
-	margin: 0 auto;
-	border-radius:50%;
-	border: 7px solid #345B63;
-	padding: 0 auto;
-}
-
-.profile .orders{
-	width: 300px;
-	height: 500px;
-	border: none;
 	padding: 20px;
-	margin: 20px;
-	background-color: #D4ECDD;
-	border-radius: 55px 10px;
-	box-shadow: 5px 10px 15px #000;
-	
+	margin: 40px;
+	background-color: #fff;
+	box-shadow: 2px 2px 4px #000;
+	border-radius: 20px 0;
+	text-align: right;
+	overflow-y: scroll;
 }
-.profile .notes{
-	width: 300px;
-	height: 500px;
-	border: none;
-	padding: 20px;
-	margin: 20px;
-	background-color: #D4ECDD;
-	border-radius: 55px 10px;
-	box-shadow: 5px 10px 15px #000;
-	
+.notes h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	padding: 20px 0;
+	color: #003638;
+	text-align: center;
 }
 .notes textarea {
 	resize: none;
-	display: flex;
-	width:270px;
-	height: 75px;
-	margin: 0 auto;
+	width: 300px;
+	height:100px;
 }
 .notes button {
-	width: 85px;
+	position: relative;
+	width: 100px;
 	height: 35px;
-	padding: 11px;
-	float: right;
-	margin: 5px 10px 5px 0;
-	color: #fff;
-	background-color: #112031;
-	border: none;
-	border-radius: 5px;
-
-}
-.noteText {
-	background-color: #fff;
-	overflow-y: scroll;
-	width: 270px;
-	height: 60px;
-	margin: 5px;
-	padding: 5px;
+	border: 1px solid #F3F2C9;
 	border-radius: 10px;
-
-}.notes .date {
-	font-size: 12px;
-	color: gray;
-}
-.noteText p {
-	font-size: 12px;
-	line-height: 2;
-	padding:10px;
-}
-.orders button {
-	width: 85px;
-	height: 35px;
-	padding: 11px;
-	float: left;
-	margin: 5px 10px 5px 0;
-	color: #fff;
-	background-color: #112031;
-	border: none;
-	border-radius: 5px;
+	background-color:#067d81;
+	color: #F3F2C9;
+	margin: 10px 0;
 
 }
-.orders p{
-	display: inline-block;
-	width: 200px;
-	font-size: 16px;
-	margin: 10px 0 0 20px;
-	color: gray;
 
-} 
-.orders a{
-
-	display:inline;
-	line-height: 1.5;
-	flex: left;
-	width: 200px;
+.notes .noteText {
+	border-radius: 40px 15px;
 	font-size: 14px;
-	
-
+	background-color: #067d81;
+	text-align: left;
+	margin: 10px 0;
+	padding:20px;
+	line-height: 1.5;
 }
-.orders img {
-	width: 70px;
-	height: 70px;
-	border: 1px solid #000;
-	margin: 0 5px;
-	vertical-align: middle;
+
+.notes .noteText p{
+	color: #cef8ff;
+}
+.notes .noteText .date {
+	font-size: 12px;
+	color: #F3F2C9;
+	font-style: italic;
+	float: right;
+	padding:0 10px 5px 0;
+}
+.notes .noteText .sender {
+	font-size: 12px;
+	font-style: italic;
+	color: #F3F2C9;
+	padding:0 10px 5px 0;
 }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)http://127.0.0.1:5500/Melvin-Cabanes_BSC-TRAINEE-EXAM/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Log in</title>
+	<link rel="stylesheet" href="./Log in_files/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+	<link href="./Log in_files/css2" rel="stylesheet">
+</head>
+<body>
+	<div class="sideContainer">
+		<h2>Introduction</h2>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id doloribus saepe quisquam illo! Earum harum, recusandae dignissimos esse omnis magnam similique quibusdam cupiditate non tempora facere dicta perspiciatis quae quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem expedita, deserunt cumque itaque cupiditate saepe ab perferendis sint? Sequi earum repellendus hic nobis rerum. Eius nihil doloremque iste natus expedita?</p>
+	</div>
+	<div class="container">
+		<div>
+			<h1>Log in</h1>
+		</div>
+		
+		<div class="emailPass">
+			<p>Email</p>
+			<input type="text" placeholder="user@gmail.com">
+
+			<p>Password</p>
+			<input type="password" placeholder="Enter your Password">
+		</div>
+		<div class="forgotPass">
+			<p><a href="http://127.0.0.1:5500/Melvin-Cabanes_BSC-TRAINEE-EXAM/index.html#">forgot password?</a></p>
+		</div>
+		<div class="wrapper">
+			<div class="loginSignup">
+				<button><a href="http://127.0.0.1:5500/Melvin-Cabanes_BSC-TRAINEE-EXAM/profile.html">Log in</a></button>
+				<button><a href="http://127.0.0.1:5500/Melvin-Cabanes_BSC-TRAINEE-EXAM/index.html#">Sign up</a></button>
+			</div>
+		</div>
+	
+		<p>or</p>
+
+		<div class="social">
+			<button class="facebook">
+				<a href="http://127.0.0.1:5500/Melvin-Cabanes_BSC-TRAINEE-EXAM/index.html#">Continue with Facebook</a>
+			</button>
+			
+			<button class="google">
+				<a href="http://127.0.0.1:5500/Melvin-Cabanes_BSC-TRAINEE-EXAM/index.html#">Continue with google</a>
+			</button>
+
+			<button class="instagram">
+				<a href="http://127.0.0.1:5500/Melvin-Cabanes_BSC-TRAINEE-EXAM/index.html#">Continue with Instagram</a>
+			</button>
+			
+		</div>
+	</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
