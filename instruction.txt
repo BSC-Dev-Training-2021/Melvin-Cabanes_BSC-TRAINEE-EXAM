@@ -1,0 +1,26 @@
+BSC_TRAINEE_EXAM 2021
+
+Coverage (HTML/CSS/Git)
+
+-  Create a git hub repo for the project. 
+
+Repository name (Firstname-lastname_BSC-TRAINEE-EXAM).
+Create a branch named  (html_css _exam.1)
+
+- Create a website lazada/shopee (Static Website CSS/HTML) 
+ 
+1.	Login page
+-  https://i.pinimg.com/originals/04/36/b9/0436b98309bf07065a2a2da8ad7e1335.png
+
+2.	My Account page (Personal Details)
+-	https://usersinsights.com/wp/wp-content/uploads/2018/07/woocommerce-customer-profile.png
+
+3.	Items page where they can select orders (don't need to order) just list dow 10-20 items in a box
+-	https://www.comalytics.com/wp-content/uploads/2017/11/3-Example-of-Naturalwise-on-15-inch-notebook.jpg
+
+4.	List of Ordered items / Checkout page
+-	https://www.noupe.com/img/carts/shopping-carts-40.jpg
+
+- Practice basic usage of basic git commands commit/push 
+
+- Create a pull request (Do not merge the pull request to the main branch)
