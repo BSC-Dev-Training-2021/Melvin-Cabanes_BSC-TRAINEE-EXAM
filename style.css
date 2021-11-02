@@ -36,7 +36,7 @@ body {
 	background-color: #067d81;
 	width: 100%;
 	height: 100%;
-	overflow-y:hidden;
+	background-color: #fff;
 	
 }
 ol, ul {
@@ -61,6 +61,8 @@ table {
 	font-family: 'Montserrat', 'Roboto', sans-serif;
 	text-decoration: none;
 	color: #000;
+	margin: 0;
+	padding: 0;
 	
 
 }
@@ -68,13 +70,15 @@ table {
 
 .indexContainer {
 	overflow: hidden;
+	background-color: #0b979c;
 }
 .sideContainer {
 	width: 50%;
-	height: 100%;
+	height: 1000px;
 	margin: 100px 20px;
-	border-right: 1px solid #F3F2C9;
+	border-right: 1px solid #fff;
 	position: absolute;
+	
 }
 .sideContainer h2 {
 	color: #53B8BB;
@@ -89,14 +93,14 @@ table {
 	text-indent: 35px;
 	font-size: 20px;
 	line-height: 2.5;
-	color: #F3F2C9;
+	color: #fff;
 	padding: 20px 30px;
 	text-align: left;
 }
 .container {
 	position: relative;
 	width: 300px;	
-	height: 100%;
+	height: 1000px;
 	margin-right: 200px;
 	padding: 50px;
 	display: block;
@@ -121,7 +125,7 @@ table {
 .emailPass p{
 	font-size: 16px;
 	padding: 10px 0;
-	color: #F3F2C9;
+	color: #fff;
 	
 	
 }
@@ -157,10 +161,10 @@ table {
 	height: 35px;
 	margin: 10px auto;
 	border-radius: 10px;
-	border: 1px solid #F3F2C9;
+	border: 1px solid #fff;
 	background-color: #067d81;
 	padding:0 auto;
-	color: #F3F2C9;
+	color: #fff;
 	font-size: 16px;
 	
 }
@@ -173,18 +177,18 @@ table {
 	
 }
 .container .loginSignup a {
-	color: #F3F2C9;
+	color: #fff;
 	font-size: 16px;
 }
 .container p {
-	color: #F3F2C9;
+	color: #fff;
 	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 5px 0;
 }
 .container .or {
-	color: #F3F2C9;
+	color: #fff;
 	font-size: 16px;
 	text-transform: uppercase;
 	text-align: center;
@@ -199,7 +203,7 @@ table {
 	border-radius: 10px;
 	border:1px solid #fff;
 	background-color: #236cff;
-	color: #F3F2C9;
+	color: #fff;
 	font-size: 14px;
 	position: relative;
 }
@@ -219,7 +223,7 @@ table {
 	border-radius: 10px;
 	border:1px solid #fff;
 	background-color: #DB4437;
-	color: #F3F2C9;
+	color: #fff;
 	font-size: 14px;
 	position: relative;
 	
@@ -239,7 +243,7 @@ table {
 	border-radius: 10px;
 	border:1px solid #fff;
 	background-color: #E1306C;
-	color: #F3F2C9;
+	color: #fff;
 	font-size: 14px;
 	position: relative;
 }
@@ -257,71 +261,41 @@ table {
 	top: 0;
 }
 .container .facebook a{
-	color: #F3F2C9;
+	color: #fff;
 }
 .container .google a{
-	color: #F3F2C9;
+	color: #fff;
 }
 .container .instagram a{
-	color: #F3F2C9;
+	color: #fff;
 }
 
 /*PROFILEEEEEEEEE*/
 .profile {
 	width: 100%;
 	height: 100%;
-	background-color: #fff;
-	
+
 }
 .profileBody {
-	display: flex;
-	width: 100%;
+	display: flex;                   
+	width: 80%;
 	height: 100%;
-	padding: 0 50px;
-	margin: 0 auto;
-	
-	
-}
-.profile nav {
-	width: 100%;
-	height: 80px;
-	background: linear-gradient(to right, #53B8BB, #055052);
-	
-}
+	padding: 50px auto;
+	margin: 20px auto;
 
-.profile nav li {
-	display: inline-block;
-	line-height: 80px;
-	font-weight: 700;
-}
-.profile nav a {
-	color: #fff;
-	text-shadow: 2px 2px 4px #000;
-	padding: 20px 30px;
-
-
-}
-.profile nav a {
-	display: inline-block;
-	font-weight: 700;
-	color: #fff;
-	float: right;
-	line-height: 80px;
-	padding: 0 30px;
-	font-size: 20px;
-	text-shadow: 2px 2px 4px #000;
-	
 }
 .userInfo {
-	border-right: 1px solid #003638;
-	width: 330px;
-	height: 470px;
+	width: 400px;
+	height: 700px;
+	flex: left;
 	padding: 20px;
-	margin-top: 40px;
+	margin: 40px;
+	background-color: #fff;
+	border-right: 1px solid #055052;
 }
 .userInfo img {
 	display: flex;
-	width: 170px;
+	width: 200px;
 	border-radius: 50%;
 	margin: 0 auto;
 	border: 5px solid #0b979c;
@@ -329,30 +303,29 @@ table {
 }
 
 .userInfo h2 {
-	font-size: 24px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
 	text-align: center;
-	padding: 20px 0;
+	padding: 30px 0;
 	color: #003638;
 }
 .userInfo ul li {
-	font-size: 18px;
-	padding: 15px;
+	font-size: 22px;
+	padding: 20px;
 	font-weight: 500;
 	color: #003638;
 }
 .userInfo ul li span{
-	font-size: 18px;
+	font-size: 22px;
 	padding: 15px;
 	font-weight: 400;
 	color: #055052;
 }
 .orders {
-	width: 330px;
-	height: 100%;
+	min-width: 400px;
+	height: 700px;
 	flex: left;
-	padding: 20px;
 	padding: 20px;
 	margin: 40px;
 	background-color: #fff;
@@ -401,21 +374,20 @@ table {
 .orders .btn button {
 	width: 100px;
 	height: 35px;
-	border: 1px solid #F3F2C9;
+	border: 1px solid #fff;
 	border-radius: 10px;
 	background-color:#067d81;
-	color: #F3F2C9;
+	color: #fff;
 }
 .orders .btn a {
-	color: #F3F2C9;
+	color: #fff;
 	
 
 }
 .notes {
-	width: 330px;
-	height: 470px;
+	min-width: 400px;
+	height: 700px;
 	flex: left;
-	padding: 20px;
 	padding: 20px;
 	margin: 40px;
 	background-color: #fff;
@@ -443,10 +415,10 @@ table {
 	position: relative;
 	width: 100px;
 	height: 35px;
-	border: 1px solid #F3F2C9;
+	border: 1px solid #fff;
 	border-radius: 10px;
 	background-color:#067d81;
-	color: #F3F2C9;
+	color: #fff;
 	margin: 10px 0;
 
 }
@@ -466,7 +438,7 @@ table {
 }
 .notes .noteText .date {
 	font-size: 12px;
-	color: #F3F2C9;
+	color: #fff;
 	font-style: italic;
 	float: right;
 	padding:0 10px 5px 0;
@@ -474,40 +446,190 @@ table {
 .notes .noteText .sender {
 	font-size: 12px;
 	font-style: italic;
-	color: #F3F2C9;
+	color: #fff;
 	padding:0 10px 5px 0;
 }
 /*E-SHOPPPP*/
 
 
-.eShop-Nav nav {
-	width: 100%;
-	height: 80px;
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 5%;
 	background: linear-gradient(to right, #53B8BB, #055052);
-
-	
-}
-
-.eShop-Nav nav li {
-	
-	display: inline-block;
-	line-height: 80px;
-	font-weight: 700;
-
-}
-.eShop-Nav nav a {
-	color: #fff;
-	text-shadow: 2px 2px 4px #000;
-	padding: 20px 30px;
-
-
-}
-.eShop-Nav nav a {
-	font-weight: 700;
-	color: #fff;
-	line-height: 80px;
-	padding: 0 30px;
 	font-size: 20px;
+	font-weight: 700;
+}
+header a {
+	color: #fff;
 	text-shadow: 2px 2px 4px #000;
+}
+.nav-links {
+	list-style: none;
+}
+.nav-links li {
+	display: inline-block;
+	padding: 0 20px;
+}
+.nav-links li a{
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+}
+header input {
+	width: 300px;
+	height: 25px;
+}
+
+header button {
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	background-color: #067d81;
+	padding:0 auto;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+}
+.sideMenu {
+	display: block;
+	line-height: 2;
+	font-size: 16px;
+	padding: 30px;
+	width: 20%;
+	margin: 30px 10px;
+	float: left;
 	
+}
+.sideMenu p{
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	color: #055052;
+	margin-bottom: 20px;
+}
+.banner  .bannerImage {
+	display: flex;
+	flex: left;
+	width: 70%;
+	height: 350px;
+	margin: 70px auto;
+
+}
+.itemImages-container ul {
+
+	display: flex;
+	flex:left;
+	flex-wrap: wrap;
+	border-top:  2px solid #055052;
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px auto;
+
+}
+.itemImages-container ul img {
+	display: flex;
+	flex: left;
+	height: 230px;
+	width: 230px;
+	margin: 10px;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+.banner > h3 {
+	display: flex;
+	font-size: 40px;
+	margin-bottom: 20px;
+	padding: 0 auto;
+	width: 70%;
+	color: #055052;
+}
+.banner .itemText {
+	font-size: 16px;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+.banner button {
+	height: 40px;
+	width: 90px;
+	margin: 5px 0 0 20px;
+	text-transform: capitalize;
+	border: none;
+	background-color: #055052;
+	border-radius: 10px;
+	color: #fff;
+}
+
+footer {
+	width: 100%;
+	height: 70px;
+	background-color: #055052;
+	margin-top: 20px;
+
+}
+footer p {
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	font-size: 14px;
+}
+/*CHECKOUT PAGGEEEEEE*/
+
+.sideMenu h3 {
+	display: flex;
+	font-size: 25px;
+	margin-bottom: 20px;
+	padding: 0 auto;
+	width: 70%;
+	color: #055052 ;
+}
+.checkOut h3 {
+	display: flex;
+	font-size: 25px;
+	margin: 20px 0;
+	width: 70%;
+	color: #055052 ;
+	font-weight: 700;
+	padding: 30px;
+	border-bottom: 1px solid #055052;
+}
+.orderBg {
+	display: flex;
+	width: 73%;
+	border-radius: 20px;
+	background-color: #ecfeff;
+}
+.orderBg img {
+	width: 100px;
+	height: 100px;
+	padding: 10px 20px;
+	border-radius: 25px;
+}
+.checkOut p {
+	display: flex;
+	width: 71%;
+	height: 30px;
+	border-radius: 20px;
+	background-color: #ecfeff;
+	margin: 10px 0;
+	line-height: 30px;
+	padding: 0 20px;
+	margin bottom: 20px;
+}
+.checkOut .orderHead{
+	padding:10px 0;
+	font-weight: 500;
+}
+.checkOut ul li {
+	display: inline;
+	margin-left: 300px;
+}
+.checkOut .orderDescription {
+	display: flex;
+	float: right;
+	line-height: 100px;
+	margin-left: -150px;
 }
