@@ -1,0 +1,221 @@
+RESET STYLE
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*MyCode*/
+* {
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #000;
+
+}
+body {
+	box-sizing: border-box;
+	background-color: #fff;
+	background:linear-gradient(to left, #055052, #003638);
+}
+
+/*Login Page*/
+
+.sideContainer {
+	width: 50%;
+	height: 500px;
+	margin: 100px 20px;
+	border-right: 1px solid #F3F2C9;
+	position: absolute;
+}
+.sideContainer h2 {
+	color: #53B8BB;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 45px;
+	padding: 20px;
+	text-shadow: 4px 3px 10px #000;
+}
+.sideContainer p {
+	text-indent: 35px;
+	font-size: 20px;
+	line-height: 2.5;
+	color: #F3F2C9;
+	padding: 20px 30px;
+	text-align: left;
+}
+.container {
+	position: relative;
+	max-width: 300px;	
+	margin-right: 200px;
+	padding: 50px;
+	display: block;
+	float: right;
+
+	
+	
+}
+.container h1 {
+	text-align: center;
+	font-size: 50px;
+	padding: 40px 0;
+	font-weight: 700;
+	color: #53B8BB;
+	border-bottom: 1px solid #fff;
+	text-shadow: 4px 3px 10px #000;
+	
+}
+.emailPass {
+	padding: 10px;
+}
+
+.emailPass p{
+	font-size: 16px;
+	padding: 10px 0;
+	color: #F3F2C9;
+	
+	
+}
+.emailPass input {
+	width: 280px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #055052;
+	border-radius: 10px;
+	padding:0 auto;
+	margin: 0 auto;
+	
+
+}
+.container .forgotPass a{
+	font-size: 12px;
+	color: #53B8BB;
+	float: right;
+}
+.container .wrapper {
+	align-content: center;
+	padding: 20px 0;
+}
+.container .loginSignup button {
+	display: block;
+	cursor: pointer;
+	width: 280px;
+	height: 35px;
+	margin: 10px auto;
+	border-radius: 10px;
+	border: 1px solid #F3F2C9;
+	background-color: #055052;
+	
+}
+.container .loginSignup a {
+	color: #F3F2C9;
+	font-size: 16px;
+}
+.container p {
+	color: #F3F2C9;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20ox 0;
+}
+.container .facebook {
+	display: block;
+	cursor: pointer;
+	width: 280px;
+	height: 36px;
+	margin: 10px auto;
+	border-radius: 10px;
+	border:none;
+	background-color: #4267B2;
+	color: #F3F2C9;
+	font-size: 14px;
+	position: relative;
+}
+
+.container .google {
+	display: block;
+	cursor: pointer;
+	width: 280px;
+	height: 36px;
+	margin: 10px auto;
+	border-radius: 10px;
+	border:none;
+	background-color: #DB4437;
+	color: #F3F2C9;
+	font-size: 14px;
+	position: relative;
+	
+}
+.container .instagram {
+	display: block;
+	cursor: pointer;
+	width: 280px;
+	height: 36px;
+	margin: 10px auto;
+	border-radius: 10px;
+	border:none;
+	background-color: #E1306C;
+	color: #F3F2C9;
+	font-size: 14px;
+	position: relative;
+}
+.social img {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 10px;
+	top: 0;
+}
+.container .facebook a{
+	color: #F3F2C9;
+}
+.container .google a{
+	color: #F3F2C9;
+}
+.container .instagram a{
+	color: #F3F2C9;
+}
