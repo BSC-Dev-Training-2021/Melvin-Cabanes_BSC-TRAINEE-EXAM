@@ -533,8 +533,8 @@ header button {
 .itemImages-container ul img {
 	display: flex;
 	flex: left;
-	height: 230px;
-	width: 230px;
+	height: 200px;
+	width: 200px;
 	margin: 10px;
 	padding-top: 20px;
 	padding-left: 15px;
@@ -548,9 +548,10 @@ header button {
 	color: #055052;
 }
 .banner .itemText {
-	font-size: 16px;
+	font-size: 20px;
 	padding: 0 20px;
 	text-transform: uppercase;
+	text-align: center;
 }
 .banner button {
 	height: 40px;
@@ -617,7 +618,7 @@ footer p {
 	margin: 10px 0;
 	line-height: 30px;
 	padding: 0 20px;
-	margin bottom: 20px;
+	margin-bottom: 20px;
 }
 .checkOut .orderHead{
 	padding:10px 0;
