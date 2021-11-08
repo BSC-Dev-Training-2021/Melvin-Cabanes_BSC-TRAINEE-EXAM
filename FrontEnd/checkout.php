@@ -14,9 +14,9 @@
             <nav>
              
                 <ul class="nav-links">
-                    <li><a href="profile.html">My Account</a></li>
+                    <li><a href="profile.php">My Account</a></li>
                     <li><a href="#">Customer Care</a></li>
-                    <li><a href="checkout.html">Track My Order</a></li>
+                    <li><a href="checkout.php">Track My Order</a></li>
                     <input type="search" name="searchbar">
                      <button>Search</button>
                 </ul>
@@ -27,14 +27,14 @@
         <ul>
             <div>
                 <h3>Manage My Account</h3>
-                <li><a href="E_Shop.html">My Profile</a></li>
-                <li><a href="E_Shop.html">My payment options</a></li>
-                <li><a href="E_Shop.html">Vouchers</a></li>
+                <li><a href="E_Shop.php">My Profile</a></li>
+                <li><a href="E_Shop.php">My payment options</a></li>
+                <li><a href="E_Shop.php">Vouchers</a></li>
             </div>
             <div>
                 <h3>My order</h3>
-                <li><a href="E_Shop.html">My returns</a></li>
-                <li><a href="E_Shop.html">My cancellation</a></li>
+                <li><a href="E_Shop.php">My returns</a></li>
+                <li><a href="E_Shop.php">My cancellation</a></li>
                 
             </div>
             <div>

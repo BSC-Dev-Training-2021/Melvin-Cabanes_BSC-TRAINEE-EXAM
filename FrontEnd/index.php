@@ -1,3 +1,7 @@
+<?php
+	require '../BackEnd/includes/login.inc.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,23 +22,24 @@
 		</div>
 		<div class="container">
 			<div>
+
+			<form action="../BackEnd/includes/login.inc.php" method="post">
 				<div>
 					<h1>Log in</h1>
 				</div>
-				
 				<div class="emailPass">
 					<p>Email</p>
-					<input type="text" placeholder="user@gmail.com">
+					<input type="text" name = "user" placeholder="user@gmail.com" required>
 
 					<p>Password</p>
-					<input type="password" placeholder="Enter your Password">
+					<input type="password" name = "pass" placeholder="Enter your Password" required>
 				</div>
 				<div class="forgotPass">
 					<p><a href="#">forgot password?</a></p>
 				</div>
 				<div class="wrapper">
 					<div class="loginSignup">
-						<a href="profile.html"><button>Log in</button></a>
+						<button type = "submit" name = "submit">Log in</button>
 						<button><a href="#">Sign up</a></button>
 					</div>
 				</div>
@@ -56,6 +61,7 @@
 				</div>
 			</div>
 		</div>
+			</form>
 	</div>
 </body>
 </html>

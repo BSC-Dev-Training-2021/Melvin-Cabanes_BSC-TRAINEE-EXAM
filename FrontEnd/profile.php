@@ -1,3 +1,7 @@
+<?php
+	require '../BackEnd/includes/login.inc.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,8 +62,8 @@
 						<p class="price">500.00Php</p>
 					</div>
 					<div class="btn">
-						<button><a href="checkout.html">View Cart</a></button>
-						<button><a href="E_Shop.html" target = "_blank">Shop Now</a></button>
+						<button><a href="checkout.php">View Cart</a></button>
+						<button><a href="E_Shop.php" target = "_blank">Shop Now</a></button>
 					</div>
 				</div>
 			</div>
